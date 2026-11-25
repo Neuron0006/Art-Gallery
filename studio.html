@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,48 +8,141 @@
   <title>Creator Studio — ArtSpace</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="site-header">
     <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">a</span> artspace</a>
-    <nav class="main-nav" aria-label="Main navigation"><a href="index.html#gallery">Explore</a><a href="creator.html">Creators</a><a href="studio.html" aria-current="page">Creator studio</a><a href="login.html">Member login</a><a href="downloads.html">Photo library</a><a class="nav-cta" href="admin.html">Admin demo</a></nav>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html#gallery">Explore</a><a
+        href="creator.html">Creators</a><a href="studio.html" aria-current="page">Creator studio</a><a
+        href="login.html">Member login</a><a href="downloads.html">Photo library</a><a class="nav-cta"
+        href="admin.html">Admin demo</a></nav>
   </header>
   <main class="container">
-    <section class="page-intro"><p class="eyebrow">Your creative workspace</p><h1>Creator studio</h1><p>This page demonstrates the forms and dashboard layout you could connect to a server later. The controls are front-end examples only.</p></section>
+    <section class="page-intro">
+      <p class="eyebrow">Your creative workspace</p>
+      <h1>Creator studio</h1>
+      <p>This page demonstrates the forms and dashboard layout you could connect to a server later. The controls are
+        front-end examples only.</p>
+    </section>
 
-    <div class="dashboard-top"><div><p class="eyebrow">Welcome back</p><h2 class="serif" style="font-size:2.5rem; margin-bottom:0">Your workspace</h2></div><a class="button" href="#add-work">Add a new work <span aria-hidden="true">＋</span></a></div>
-    <div class="stat-grid"><div class="stat-card"><span>Published works</span><strong>12</strong></div><div class="stat-card"><span>Profile visits (sample)</span><strong>1.8k</strong></div><div class="stat-card"><span>Saved by visitors (sample)</span><strong>246</strong></div></div>
+    <div class="dashboard-top">
+      <div>
+        <p class="eyebrow">Welcome back</p>
+        <h2 class="serif" style="font-size:2.5rem; margin-bottom:0">Your workspace</h2>
+      </div><a class="button" href="#add-work">Add a new work <span aria-hidden="true">＋</span></a>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-card"><span>Published works</span><strong>12</strong></div>
+      <div class="stat-card"><span>Profile visits (sample)</span><strong>1.8k</strong></div>
+      <div class="stat-card"><span>Saved by visitors (sample)</span><strong>246</strong></div>
+    </div>
 
     <section class="form-card" id="add-work" aria-labelledby="add-work-title">
-      <p class="eyebrow">Publish something new</p><h2 id="add-work-title">Add your artwork</h2><p>Enter artwork details and choose an image. This form will not upload or save anything until you connect a backend.</p>
+      <p class="eyebrow">Publish something new</p>
+      <h2 id="add-work-title">Add your artwork</h2>
+      <p>Enter artwork details and choose an image. This form will not upload or save anything until you connect a
+        backend.</p>
       <form action="#add-work" method="get">
         <div class="form-grid">
-          <div class="field full"><label for="work-title">Artwork title</label><input id="work-title" name="title" type="text" placeholder="e.g. A Study in Blue" required></div>
-          <div class="field"><label for="category">Category</label><select id="category" name="category"><option>Painting</option><option>Photography</option><option>Illustration</option><option>Sculpture</option><option>Mixed media</option></select></div>
-          <div class="field"><label for="medium">Medium</label><input id="medium" name="medium" type="text" placeholder="e.g. Oil on canvas"></div>
-          <div class="field full"><label for="description">Description</label><textarea id="description" name="description" placeholder="Tell visitors about this work…"></textarea></div>
-          <div class="field full"><label for="image-upload">Artwork image</label><input id="image-upload" name="image" type="file" accept="image/*"><small>Choosing a file here does not upload it to a server.</small></div>
-          <div class="field full"><label for="tags">Tags</label><input id="tags" name="tags" type="text" placeholder="abstract, colour, nature"></div>
+          <div class="field full"><label for="work-title">Artwork title</label><input id="work-title" name="title"
+              type="text" placeholder="e.g. A Study in Blue" required></div>
+          <div class="field"><label for="category">Category</label><select id="category" name="category">
+              <option>Painting</option>
+              <option>Photography</option>
+              <option>Illustration</option>
+              <option>Sculpture</option>
+              <option>Mixed media</option>
+            </select></div>
+          <div class="field"><label for="medium">Medium</label><input id="medium" name="medium" type="text"
+              placeholder="e.g. Oil on canvas"></div>
+          <div class="field full"><label for="description">Description</label><textarea id="description"
+              name="description" placeholder="Tell visitors about this work…"></textarea></div>
+          <div class="field full"><label for="image-upload">Artwork image</label><input id="image-upload" name="image"
+              type="file" accept="image/*"><small>Choosing a file here does not upload it to a server.</small></div>
+          <div class="field full"><label for="tags">Tags</label><input id="tags" name="tags" type="text"
+              placeholder="abstract, colour, nature"></div>
         </div>
-        <div class="form-actions"><button class="button demo-disabled" type="submit" disabled>Publish artwork (backend required)</button><a class="button secondary" href="creator.html">Preview creator profile</a></div>
+        <div class="form-actions"><button class="button demo-disabled" type="submit" disabled>Publish artwork (backend
+            required)</button><a class="button secondary" href="creator.html">Preview creator profile</a></div>
       </form>
     </section>
 
     <section class="form-card" aria-labelledby="profile-edit-title">
-      <p class="eyebrow">Profile settings</p><h2 id="profile-edit-title">Edit your profile</h2><p>Example fields for a creator profile. Changes are not stored.</p>
+      <p class="eyebrow">Profile settings</p>
+      <h2 id="profile-edit-title">Edit your profile</h2>
+      <p>Example fields for a creator profile. Changes are not stored.</p>
       <form action="#profile-edit-title" method="get">
-        <div class="form-grid"><div class="field"><label for="display-name">Display name</label><input id="display-name" name="display-name" type="text" value="Maya Chen"></div><div class="field"><label for="location">Location</label><input id="location" name="location" type="text" placeholder="City, country"></div><div class="field full"><label for="bio">Short biography</label><textarea id="bio" name="bio">Painting the in-between moments: changing light, familiar places and the colours we remember.</textarea></div></div>
-        <div class="form-actions"><button class="button demo-disabled" type="submit" disabled>Save profile (backend required)</button></div>
+        <div class="form-grid">
+          <div class="field"><label for="display-name">Display name</label><input id="display-name" name="display-name"
+              type="text" value="Maya Chen"></div>
+          <div class="field"><label for="location">Location</label><input id="location" name="location" type="text"
+              placeholder="City, country"></div>
+          <div class="field full"><label for="bio">Short biography</label><textarea id="bio"
+              name="bio">Painting the in-between moments: changing light, familiar places and the colours we remember.</textarea>
+          </div>
+        </div>
+        <div class="form-actions"><button class="button demo-disabled" type="submit" disabled>Save profile (backend
+            required)</button></div>
       </form>
     </section>
 
-    <section class="section" aria-labelledby="my-work-title"><div class="section-heading"><div><p class="eyebrow">Content management preview</p><h2 id="my-work-title">Your works</h2><p>Edit and delete controls need server-side functionality.</p></div></div>
-      <div class="table-wrap"><table><thead><tr><th>Artwork</th><th>Category</th><th>Status</th><th>Actions</th></tr></thead><tbody><tr><td>Golden Hour</td><td>Painting</td><td><span class="status">Published</span></td><td><button class="button secondary demo-disabled" type="button" disabled>Edit</button> <button class="button secondary demo-disabled" type="button" disabled>Delete</button></td></tr><tr><td>Quiet Geometry</td><td>Painting</td><td><span class="status pending">Draft</span></td><td><button class="button secondary demo-disabled" type="button" disabled>Edit</button> <button class="button secondary demo-disabled" type="button" disabled>Delete</button></td></tr></tbody></table></div>
+    <section class="section" aria-labelledby="my-work-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Content management preview</p>
+          <h2 id="my-work-title">Your works</h2>
+          <p>Edit and delete controls need server-side functionality.</p>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Artwork</th>
+              <th>Category</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Golden Hour</td>
+              <td>Painting</td>
+              <td><span class="status">Published</span></td>
+              <td><button class="button secondary demo-disabled" type="button" disabled>Edit</button> <button
+                  class="button secondary demo-disabled" type="button" disabled>Delete</button></td>
+            </tr>
+            <tr>
+              <td>Quiet Geometry</td>
+              <td>Painting</td>
+              <td><span class="status pending">Draft</span></td>
+              <td><button class="button secondary demo-disabled" type="button" disabled>Edit</button> <button
+                  class="button secondary demo-disabled" type="button" disabled>Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
-    <section class="form-card" aria-labelledby="auth-title"><p class="eyebrow">Account access interface</p><h2 id="auth-title">Sign in / create account</h2><p>These are example authentication fields. Real account creation, password checking and secure sessions require a backend.</p>
-      <form action="#auth-title" method="get"><div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div><div class="field"><label for="password">Password</label><input id="password" name="password" type="password" placeholder="At least 8 characters" autocomplete="current-password" required></div><div class="form-actions"><button class="button demo-disabled" type="submit" disabled>Sign in (backend required)</button><button class="button secondary demo-disabled" type="button" disabled>Create account</button></div></form>
+    <section class="form-card" aria-labelledby="auth-title">
+      <p class="eyebrow">Account access interface</p>
+      <h2 id="auth-title">Sign in / create account</h2>
+      <p>These are example authentication fields. Real account creation, password checking and secure sessions require a
+        backend.</p>
+      <form action="#auth-title" method="get">
+        <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email"
+            placeholder="you@example.com" autocomplete="email" required></div>
+        <div class="field"><label for="password">Password</label><input id="password" name="password" type="password"
+            placeholder="At least 8 characters" autocomplete="current-password" required></div>
+        <div class="form-actions"><button class="button demo-disabled" type="submit" disabled>Sign in (backend
+            required)</button><button class="button secondary demo-disabled" type="button" disabled>Create
+            account</button></div>
+      </form>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 ArtSpace</span><a href="index.html">Return to gallery ↑</a></div></footer>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>© 2026 ArtSpace</span><a href="index.html">Return to gallery ↑</a></div>
+  </footer>
 </body>
+
 </html>
