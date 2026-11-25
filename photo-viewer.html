@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CSS-only image magnifier for ArtSpace sample photographs.">
+  <title>Photo magnifier — ArtSpace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">a</span> artspace</a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html#gallery">Explore</a><a href="downloads.html">Photo library</a><a href="login.html">Member login</a></nav>
+  </header>
+  <main class="container viewer-main">
+    <section class="viewer-hint">
+      <p class="eyebrow">Photo magnifier</p><h1>Choose an artwork.</h1>
+      <p>Open a photo from the gallery or member photo library to see it here.</p>
+      <a class="button" href="downloads.html">Browse photo library</a>
+    </section>
+    <section class="viewer-panel" id="golden-hour" aria-labelledby="title-golden-hour">
+      <div class="viewer-heading">
+        <div><p class="eyebrow">Painting · photo viewer</p><h1 id="title-golden-hour">Abstract Painting</h1><p>By CHUTTERSNAP</p></div>
+        <a class="button secondary" href="downloads.html">✕ Close viewer</a>
+      </div>
+      <div class="zoom-toolbar" role="group" aria-label="Choose magnification for Abstract Painting">
+        <span>Magnification</span>
+        <input class="zoom-radio" type="radio" name="zoom-golden-hour" id="golden-hour-fit" checked><label class="zoom-label" for="golden-hour-fit">Fit</label>
+        <input class="zoom-radio" type="radio" name="zoom-golden-hour" id="golden-hour-150"><label class="zoom-label" for="golden-hour-150">150%</label>
+        <input class="zoom-radio" type="radio" name="zoom-golden-hour" id="golden-hour-200"><label class="zoom-label" for="golden-hour-200">200%</label>
+      </div>
+      <div class="viewer-frame" tabindex="0" aria-label="Scrollable image viewing area; use zoom controls above">
+        <img src="https://images.unsplash.com/photo-1498721409281-998093cc905b?auto=format&fit=crop&w=2400&q=90" alt="Abstract painting in soft pink and mauve tones" loading="eager">
+      </div>
+      <p class="viewer-help">At 150% or 200%, scroll inside the image area to inspect different parts of the photo. Use Fit to return to the full image.</p>
+      <div class="form-actions viewer-actions">
+        <a class="button" href="https://unsplash.com/photos/abstract-painting-uj1tRjP5UI0" target="_blank" rel="noopener noreferrer">Download from source ↗</a>
+        <a class="button secondary" href="https://images.unsplash.com/photo-1498721409281-998093cc905b?auto=format&fit=crop&w=2400&q=90" target="_blank" rel="noopener noreferrer">Open full-size image ↗</a>
+        <a class="button secondary" href="downloads.html">Back to photo library</a>
+      </div>
+    </section>
+    <section class="viewer-panel" id="still-waters" aria-labelledby="title-still-waters">
+      <div class="viewer-heading">
+        <div><p class="eyebrow">Photography · photo viewer</p><h1 id="title-still-waters">Still Waters</h1><p>By Alexa</p></div>
+        <a class="button secondary" href="downloads.html">✕ Close viewer</a>
+      </div>
+      <div class="zoom-toolbar" role="group" aria-label="Choose magnification for Still Waters">
+        <span>Magnification</span>
+        <input class="zoom-radio" type="radio" name="zoom-still-waters" id="still-waters-fit" checked><label class="zoom-label" for="still-waters-fit">Fit</label>
+        <input class="zoom-radio" type="radio" name="zoom-still-waters" id="still-waters-150"><label class="zoom-label" for="still-waters-150">150%</label>
+        <input class="zoom-radio" type="radio" name="zoom-still-waters" id="still-waters-200"><label class="zoom-label" for="still-waters-200">200%</label>
+      </div>
+      <div class="viewer-frame" tabindex="0" aria-label="Scrollable image viewing area; use zoom controls above">
+        <img src="https://images.unsplash.com/photo-1544866205-eb05dbc7724c?auto=format&fit=crop&w=2400&q=90" alt="Ocean wave and sea water" loading="eager">
+      </div>
+      <p class="viewer-help">At 150% or 200%, scroll inside the image area to inspect different parts of the photo. Use Fit to return to the full image.</p>
+      <div class="form-actions viewer-actions">
+        <a class="button" href="https://unsplash.com/photos/ocean-waves-G1RBwD_wchw" target="_blank" rel="noopener noreferrer">Download from source ↗</a>
+        <a class="button secondary" href="https://images.unsplash.com/photo-1544866205-eb05dbc7724c?auto=format&fit=crop&w=2400&q=90" target="_blank" rel="noopener noreferrer">Open full-size image ↗</a>
+        <a class="button secondary" href="downloads.html">Back to photo library</a>
+      </div>
+    </section>
+    <section class="viewer-panel" id="a-little-wild" aria-labelledby="title-a-little-wild">
+      <div class="viewer-heading">
+        <div><p class="eyebrow">Photography · photo viewer</p><h1 id="title-a-little-wild">A Little Wild</h1><p>By Anton Murygin</p></div>
+        <a class="button secondary" href="downloads.html">✕ Close viewer</a>
+      </div>
+      <div class="zoom-toolbar" role="group" aria-label="Choose magnification for A Little Wild">
+        <span>Magnification</span>
+        <input class="zoom-radio" type="radio" name="zoom-a-little-wild" id="a-little-wild-fit" checked><label class="zoom-label" for="a-little-wild-fit">Fit</label>
+        <input class="zoom-radio" type="radio" name="zoom-a-little-wild" id="a-little-wild-150"><label class="zoom-label" for="a-little-wild-150">150%</label>
+        <input class="zoom-radio" type="radio" name="zoom-a-little-wild" id="a-little-wild-200"><label class="zoom-label" for="a-little-wild-200">200%</label>
+      </div>
+      <div class="viewer-frame" tabindex="0" aria-label="Scrollable image viewing area; use zoom controls above">
+        <img src="https://images.unsplash.com/photo-1531917517452-0068c593a675?auto=format&fit=crop&w=2400&q=90" alt="Close-up photograph of flowers in sunlight" loading="eager">
+      </div>
+      <p class="viewer-help">At 150% or 200%, scroll inside the image area to inspect different parts of the photo. Use Fit to return to the full image.</p>
+      <div class="form-actions viewer-actions">
+        <a class="button" href="https://unsplash.com/photos/closeup-photography-of-flowers-q-HbOPtFfaM" target="_blank" rel="noopener noreferrer">Download from source ↗</a>
+        <a class="button secondary" href="https://images.unsplash.com/photo-1531917517452-0068c593a675?auto=format&fit=crop&w=2400&q=90" target="_blank" rel="noopener noreferrer">Open full-size image ↗</a>
+        <a class="button secondary" href="downloads.html">Back to photo library</a>
+      </div>
+    </section>
+    <section class="viewer-panel" id="quiet-geometry" aria-labelledby="title-quiet-geometry">
+      <div class="viewer-heading">
+        <div><p class="eyebrow">Sculpture · photo viewer</p><h1 id="title-quiet-geometry">Quiet Geometry</h1><p>By Khyati Trehan / Visualising AI</p></div>
+        <a class="button secondary" href="downloads.html">✕ Close viewer</a>
+      </div>
+      <div class="zoom-toolbar" role="group" aria-label="Choose magnification for Quiet Geometry">
+        <span>Magnification</span>
+        <input class="zoom-radio" type="radio" name="zoom-quiet-geometry" id="quiet-geometry-fit" checked><label class="zoom-label" for="quiet-geometry-fit">Fit</label>
+        <input class="zoom-radio" type="radio" name="zoom-quiet-geometry" id="quiet-geometry-150"><label class="zoom-label" for="quiet-geometry-150">150%</label>
+        <input class="zoom-radio" type="radio" name="zoom-quiet-geometry" id="quiet-geometry-200"><label class="zoom-label" for="quiet-geometry-200">200%</label>
+      </div>
+      <div class="viewer-frame" tabindex="0" aria-label="Scrollable image viewing area; use zoom controls above">
+        <img src="https://images.unsplash.com/photo-1655720842809-0db94ab43f02?auto=format&fit=crop&w=2400&q=90" alt="Close-up of a contemporary digital sculpture" loading="eager">
+      </div>
+      <p class="viewer-help">At 150% or 200%, scroll inside the image area to inspect different parts of the photo. Use Fit to return to the full image.</p>
+      <div class="form-actions viewer-actions">
+        <a class="button" href="https://unsplash.com/photos/a-close-up-of-a-sculpture-rXy5Zlmw3qY" target="_blank" rel="noopener noreferrer">Download from source ↗</a>
+        <a class="button secondary" href="https://images.unsplash.com/photo-1655720842809-0db94ab43f02?auto=format&fit=crop&w=2400&q=90" target="_blank" rel="noopener noreferrer">Open full-size image ↗</a>
+        <a class="button secondary" href="downloads.html">Back to photo library</a>
+      </div>
+    </section>
+    <section class="viewer-panel" id="long-way-home" aria-labelledby="title-long-way-home">
+      <div class="viewer-heading">
+        <div><p class="eyebrow">Photography · photo viewer</p><h1 id="title-long-way-home">The Long Way Home</h1><p>By Jonatan Pie</p></div>
+        <a class="button secondary" href="downloads.html">✕ Close viewer</a>
+      </div>
+      <div class="zoom-toolbar" role="group" aria-label="Choose magnification for The Long Way Home">
+        <span>Magnification</span>
+        <input class="zoom-radio" type="radio" name="zoom-long-way-home" id="long-way-home-fit" checked><label class="zoom-label" for="long-way-home-fit">Fit</label>
+        <input class="zoom-radio" type="radio" name="zoom-long-way-home" id="long-way-home-150"><label class="zoom-label" for="long-way-home-150">150%</label>
+        <input class="zoom-radio" type="radio" name="zoom-long-way-home" id="long-way-home-200"><label class="zoom-label" for="long-way-home-200">200%</label>
+      </div>
+      <div class="viewer-frame" tabindex="0" aria-label="Scrollable image viewing area; use zoom controls above">
+        <img src="https://images.unsplash.com/photo-1758461479768-bdbce375e005?auto=format&fit=crop&w=2400&q=90" alt="Aerial view of a winding river through a dark landscape" loading="eager">
+      </div>
+      <p class="viewer-help">At 150% or 200%, scroll inside the image area to inspect different parts of the photo. Use Fit to return to the full image.</p>
+      <div class="form-actions viewer-actions">
+        <a class="button" href="https://unsplash.com/photos/a-winding-river-flows-through-a-vast-dark-landscape-Y19Sstu3_DI" target="_blank" rel="noopener noreferrer">Download from source ↗</a>
+        <a class="button secondary" href="https://images.unsplash.com/photo-1758461479768-bdbce375e005?auto=format&fit=crop&w=2400&q=90" target="_blank" rel="noopener noreferrer">Open full-size image ↗</a>
+        <a class="button secondary" href="downloads.html">Back to photo library</a>
+      </div>
+    </section>
+    <section class="viewer-panel" id="soft-forms" aria-labelledby="title-soft-forms">
+      <div class="viewer-heading">
+        <div><p class="eyebrow">Sculpture · photo viewer</p><h1 id="title-soft-forms">Soft Forms</h1><p>By Kinsey Wang</p></div>
+        <a class="button secondary" href="downloads.html">✕ Close viewer</a>
+      </div>
+      <div class="zoom-toolbar" role="group" aria-label="Choose magnification for Soft Forms">
+        <span>Magnification</span>
+        <input class="zoom-radio" type="radio" name="zoom-soft-forms" id="soft-forms-fit" checked><label class="zoom-label" for="soft-forms-fit">Fit</label>
+        <input class="zoom-radio" type="radio" name="zoom-soft-forms" id="soft-forms-150"><label class="zoom-label" for="soft-forms-150">150%</label>
+        <input class="zoom-radio" type="radio" name="zoom-soft-forms" id="soft-forms-200"><label class="zoom-label" for="soft-forms-200">200%</label>
+      </div>
+      <div class="viewer-frame" tabindex="0" aria-label="Scrollable image viewing area; use zoom controls above">
+        <img src="https://images.unsplash.com/photo-1791556929442-ff0e2cb2bacc?auto=format&fit=crop&w=2400&q=90" alt="Abstract white sculptures in a gallery room" loading="eager">
+      </div>
+      <p class="viewer-help">At 150% or 200%, scroll inside the image area to inspect different parts of the photo. Use Fit to return to the full image.</p>
+      <div class="form-actions viewer-actions">
+        <a class="button" href="https://unsplash.com/photos/abstract-white-sculptures-in-dim-room-74jrYJkUxzE" target="_blank" rel="noopener noreferrer">Download from source ↗</a>
+        <a class="button secondary" href="https://images.unsplash.com/photo-1791556929442-ff0e2cb2bacc?auto=format&fit=crop&w=2400&q=90" target="_blank" rel="noopener noreferrer">Open full-size image ↗</a>
+        <a class="button secondary" href="downloads.html">Back to photo library</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 ArtSpace · CSS-only magnifier</span><a href="downloads.html">Photo library</a></div></footer>
+</body>
+</html>
